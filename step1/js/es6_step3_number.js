@@ -30,4 +30,7 @@
   console.log('isSafeInteger(-1)', Number.isSafeInteger(-1));
   console.log('isSafeInteger(Math.pow(2, 53))', Number.isSafeInteger(Math.pow(2, 53)));
   console.log('Math.pow(2, 53))', Math.pow(2, 53));;
+
+  console.log('Number.isNaN', Number.isNaN('aa'));
+  console.log('isNaN', isNaN('aa'));
 })();

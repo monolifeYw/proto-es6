@@ -4,7 +4,9 @@
     $ npm install
 
 ## Configuration
+
 ### package.json 내 entries 목록
+
 * type : `array`
 * CLI 실행시 참고할 Entry 기준 목록
 
@@ -26,23 +28,22 @@
     "es6_step14_other_features"
   ]
 ```
-
-###내부 Data 기준
+### 내부 Data 기준
 
 > `src/js` 내에 있는 소스
 
-##Run in development (base)
+## Run in development (base)
 
     $ npm start
 
 > `es6_step1_scope` 첫번째 배열 collection number 기준
 
-##Run in development for entry
+## Run in development for entry
 
     $ npm start -- 2
 
 > `es6_step2_param` 이 build 되며 실행
 
-##View in Browser
+## View in Browser
 
 > http://localhost:7777

@@ -1,21 +1,20 @@
 'use strict';
- 
+
  (function () {
-  
+
 
   if(true) {
-    
+
     let block = 'block';
-    for (let i = 0; i < 10; i++) { 
-      console.log('block'); 
+    for (let i = 0; i < 10; i++) {
+      console.log('block');
     }
-    // console.log(i) // undefined 
+    // console.log(i) // undefined
     let obj = {
       a: function () {
         console.log(block); // block
       }
     }
-    
 
     obj.a();
 
@@ -34,6 +33,6 @@
     arr[0] = 9;
     console.log('numArr', numArr);
 
-  } 
-  
+  }
+
  })();

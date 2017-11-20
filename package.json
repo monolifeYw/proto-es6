@@ -1,0 +1,36 @@
+{
+  "name": "step1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --progress --env"
+  },
+  "entries": [
+    "es6_step1_scope",
+    "es6_step2_param",
+    "es6_step3_number",
+    "es6_step4_array",
+    "es6_step5_object",
+    "es6_step6_data_set",
+    "es6_step7_data_map",
+    "es6_step8_weak",
+    "es6_step9_iterator",
+    "es6_step10_loop",
+    "es6_step11_function",
+    "es6_step12_promise",
+    "es6_step13_class",
+    "es6_step14_other_features"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "2.3.3",
+    "webpack-dev-server": "^2.4.2",
+    "yargs": "10.0.3"
+  }
+}
